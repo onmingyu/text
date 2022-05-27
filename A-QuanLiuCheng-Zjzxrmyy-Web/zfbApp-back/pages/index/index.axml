@@ -1,0 +1,11 @@
+<view>
+  <view a:if="{{URL !== ''}}">
+    <web-view id="web-view-1" src="{{URL}}" onMessage="onWebMessage"></web-view>
+  </view>
+  <view a:else onTap="authBtnHome" style="height: 100%;">
+    <view>请授权登录...</view>
+    <view a:if="{{isAuth}}">轻触这里重新获取授权</view>
+  </view>
+  <!-- 引入组件 -->
+  <subscribe-msg />
+</view>

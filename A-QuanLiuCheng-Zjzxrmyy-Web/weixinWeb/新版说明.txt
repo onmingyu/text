@@ -1,0 +1,10 @@
+1.在build文件夹，webpack.dev.conf.js和webpack.prod.conf.js文件增加PAY_TYPE,PLATFORM,HOSPITAL
+ new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: '"production"',
+        PAY_TYPE: '"weixin"',
+        PLATFORM: '"支付宝"',
+        HOSPITAL: '"医院名称"'
+      }
+    }),用于区分支付宝和微信。默认是微信，如果是支付宝项目做对应修改
+

@@ -1,0 +1,65 @@
+
+<view class="page">
+  <form onSubmit="onSubmit">
+    <input-item data-field="url" 
+      name="url"
+      clear="{{false}}" 
+      value="https://api.gdbkyz.com/test/zjzxrm/AliApp/h5/#!/index/portal" 
+      className="" 
+      placeholder="" 
+    >
+      URL:
+      <view slot="extra" class="extra" onTap="onExtraTap"></view>
+    </input-item>
+
+    <input-item data-field="title" 
+      name="title"
+      clear="{{false}}" 
+      value="xx公积金" 
+      className="" 
+      placeholder="" 
+      controlled="{{true}}"
+    >
+      标题:
+      <view slot="extra" class="extra" onTap="onExtraTap"></view>
+    </input-item>
+
+    <input-item data-field="pageCode" 
+      name="pageCode"
+      clear="{{false}}" 
+      value="new_zw.ywtb.gongjijing" 
+      className="" 
+      placeholder="" 
+    >
+      代码：
+      <view slot="extra" class="extra" onTap="onExtraTap"></view>
+    </input-item>
+
+    <picker-item
+      data-field="auth"
+      placeholder=""
+      title="选择auth"
+      onPickerTap="onPickerTap"
+      layer="vertical"
+      value="{{auth}}"
+    >
+      授权：
+    </picker-item>
+
+    <input-item data-field="backPage" 
+      name="backPage"
+      clear="{{false}}" 
+      value="/pages/index/index" 
+      className="" 
+      placeholder="" 
+    >
+      返回页：
+      <view slot="extra" class="extra" onTap="onExtraTap"></view>
+    </input-item>
+    
+
+    <button type="primary" form-type="submit">
+      Go H5
+    </button>
+  </form>
+</view>

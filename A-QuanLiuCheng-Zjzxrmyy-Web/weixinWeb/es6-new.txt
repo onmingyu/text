@@ -1,0 +1,5 @@
+1.ES6 Promise
+2.Object.assign
+3.array.find
+4.Destructuring
+5.arrow function

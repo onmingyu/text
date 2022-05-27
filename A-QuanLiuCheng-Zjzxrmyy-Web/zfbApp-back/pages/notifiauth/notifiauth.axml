@@ -1,0 +1,8 @@
+<view>
+  <view onTap="onSendMessage" style="height: 100%;">
+    <view>请授权接收消息...</view>
+    <view>轻触这里重新获取授权</view>
+  </view>
+  <!-- 引入组件 -->
+  <subscribe-msg />
+</view>

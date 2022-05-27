@@ -1,0 +1,7 @@
+{
+  "enableLegacyRemoteDebug": false,
+  "ignoreWebViewDomainCheck": true,
+  "disableRemoteDebugSourcePanel": false,
+  "enableCloudBuild": false,
+  "ignoreHttpDomainCheck": true
+}

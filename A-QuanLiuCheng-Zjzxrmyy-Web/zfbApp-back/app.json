@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/notifiauth/notifiauth"
+  ],
+  "plugins": {
+    "subscribeMsg": {
+      "version": "*",
+      "provider": "2021001155639035"
+    }
+  },
+  "window": {
+    "defaultTitle": "湛江中心人民医院"
+  }
+}
